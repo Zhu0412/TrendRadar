@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # AI 内容审核（垃圾检测 + 链接检测 + AI 生成检测）
+      # AI 内容审核（垃圾检测 + 链接检测 + AI 生成检测）  2026-06-26
       - uses: github/ai-moderator@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
